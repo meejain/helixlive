@@ -1,6 +1,6 @@
-# Contributing to Project Helix
+# Contributing to helix-webiste
 
-This project (like almost all of Project Helix) is an Open Development project and welcomes contributions from everyone who finds it useful or lacking.
+This project is an Open Development/Inner Source project and welcomes contributions from everyone who finds it useful or lacking.
 
 ## Code Of Conduct
 
@@ -71,3 +71,4 @@ One of the maintainers will look at the pull request within one week. Feedback o
 The project's committers will release to the [Adobe organization on npmjs.org](https://www.npmjs.com/org/adobe).
 Please contact the [Adobe Open Source Advisory Board](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/discuss/issues) to get access to the npmjs organization.
 
+The release process is fully automated using `semantic-release`, increasing the version numbers, etc. based on the contents of the commit messages found.
