@@ -774,6 +774,13 @@ main .form .button:hover::before {
   line-height: var(--type-body-s-lh);
 }
 
+/* Halt side navigation bar to scroll up completely until we get the right pane completely up */
+main .block.side-navigation-bar {
+  position: sticky;
+  top: 0;
+}
+
+
 @media screen and (min-width: 900px) {
   .redesign a.button.large:any-link {
     font-size: var(--type-body-m-size);
