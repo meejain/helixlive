@@ -775,7 +775,7 @@ main .form .button:hover::before {
 }
 
 /* Halt side navigation bar to scroll up completely until we get the right pane completely up */
-main .block.side-navigation-bar {
+main .block.side-navigation {
   position: sticky;
   top: 0;
 }
